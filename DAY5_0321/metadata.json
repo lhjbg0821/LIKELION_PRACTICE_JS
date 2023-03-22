@@ -1,0 +1,15 @@
+{
+  "name": "heendoung",
+  "description": "White Puppy",
+  "image": "https://https://www.pixilart.com/art/-sr2d7b56542c45e",
+  "attributes": [
+    {
+      "trait_type": "FACE",
+      "value": "white"
+    },
+    {
+      "trait_type": "NECKLACE",
+      "value": "lightblue"
+    }
+  ]
+}
