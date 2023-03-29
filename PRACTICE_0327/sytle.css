@@ -1,0 +1,125 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+body {
+  margin-left: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+header .logo {
+  width: 100px;
+}
+header .nav-searchForm {
+  display: flex;
+  align-items: center;
+}
+header .nav-searchForm .searchInput {
+  width: 300px;
+  height: 50px;
+  border: 0.5px solid #999999;
+  border-radius: 20px;
+  height: 20px;
+}
+header .nav-searchForm svg {
+  fill: #bdbdbd;
+}
+header .profile {
+  width: 100px;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+main .content1 .bgVideo {
+  width: 1000px;
+}
+main .content1 .quotes {
+  position: relative;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+main .content1 .quotes .quotesMsg {
+  color: black;
+  font-weight: 600;
+  font-family: "Pretendard";
+  margin-top: 20px;
+}
+main .content1 .quotes .quotesAddBtn {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -25%);
+  background-color: #f0f0f0;
+  border: 0;
+  border-radius: 20px;
+  color: black;
+  font-size: 15px;
+}
+main .content1 .quotes:hover .quotesAddBtn {
+  display: inline-block;
+}
+main .content1 .newQuotes {
+  display: none;
+}
+main .content1 .newQuotesInput {
+  border: 1px solid #999999;
+  border-radius: 10px;
+}
+main .content1 .newQuotesButton {
+  font-family: "Pretendard-SemiBold";
+  font-size: 15px;
+  border: 1px solid #999999;
+  border-radius: 10px;
+  background-color: white;
+}
+main .content2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Pretendard-Bold";
+}
+main .content2 .weather {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+main .content2 .calendar {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+main .content2 .calendar .imgCal {
+  width: 150px;
+}
+main .content2 .time {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  padding: 24px;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  font-size: 30px;
+  color: black;
+  padding: 12px 24px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=sytle.css.map */

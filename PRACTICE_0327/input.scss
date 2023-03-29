@@ -1,0 +1,149 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
+body {
+  margin-left: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+
+  .logo {
+    width: 100px;
+  }
+
+  .nav-searchForm {
+    display: flex;
+    align-items: center;
+
+    .searchInput {
+      width: 300px;
+      height: 50px;
+      border: 0.5px solid #999999;
+      border-radius: 20px;
+      height: 20px;
+    }
+
+    svg {
+      fill: #bdbdbd;
+    }
+  }
+
+  .profile {
+    width: 100px;
+  }
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+
+  .content1 {
+    .bgVideo {
+      width: 1000px;
+    }
+
+    .quotes {
+      position: relative;
+      font-size: 40px;
+      margin-bottom: 10px;
+
+      .quotesMsg {
+        color: black;
+        font-weight: 600;
+        font-family: "Pretendard";
+        margin-top: 20px;
+      }
+      .quotesAddBtn {
+        display: none;
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -25%);
+
+        background-color: #f0f0f0;
+        border: 0;
+        border-radius: 20px;
+        color: black;
+        font-size: 15px;
+      }
+
+      &:hover {
+        .quotesAddBtn {
+          display: inline-block;
+        }
+      }
+    }
+
+    .newQuotes {
+      display: none;
+    }
+
+    .newQuotesInput {
+      border: 1px solid #999999;
+      border-radius: 10px;
+    }
+
+    .newQuotesButton {
+      font-family: "Pretendard-SemiBold";
+      font-size: 15px;
+      border: 1px solid #999999;
+      border-radius: 10px;
+      background-color: white;
+    }
+  }
+
+  .content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: "Pretendard-Bold";
+
+    .weather {
+      width: 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      padding: 24px;
+      background-color: #f0f0f0;
+      border-radius: 20px;
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+
+    .calendar {
+      width: 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      padding: 24px;
+      background-color: #f0f0f0;
+      border-radius: 20px;
+      font-size: 30px;
+      margin-bottom: 30px;
+
+      .imgCal {
+        width: 150px;
+      }
+    }
+
+    .time {
+      display: flex;
+      align-items: center;
+      width: 200px;
+      padding: 24px;
+      background-color: #f0f0f0;
+      border-radius: 20px;
+      font-size: 30px;
+      color: black;
+      padding: 12px 24px;
+      border-radius: 10px;
+      justify-content: center;
+    }
+  }
+}
